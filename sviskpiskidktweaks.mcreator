@@ -1,0 +1,81 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "GoldenHead",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GoldenHeadRightClicked",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GoldenHeadCraft",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.goldenhead.name": "Golden Head"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "sviskpiskidktweaks",
+    "modName": "Pisek\u0027s SPIDK Tweaks",
+    "version": "1.0",
+    "description": "Tweaks",
+    "author": "Písek Pískovec",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [
+      "tconstruct"
+    ],
+    "dependencies": [
+      "tconstruct"
+    ],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "1.12.2",
+    "modElementsPackage": "org.pisek.sviskpiskidktweaks",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000214217
+}
